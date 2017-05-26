@@ -102,3 +102,57 @@ El tamaño de un determinado tipo de datos depende del compilador y / o de la ar
 El operador sizeof es un operador unitario que tiene o bien un tipo o una variable, y devuelve su tamaño en bytes.
 ## Enteros
 ![ScreenShot](https://raw.github.com/BitzerAr/Acecom/master/fotos/entero.png)
+El rango de una variable de número entero se determina por dos factores: su tamaño (en bits), y su signo 
+Definicion
+```c++
+char c;
+short int si;
+short s;     
+int i;
+long int li; 
+long l;      
+long long int lli; 
+long long ll; 
+```
+## Float 
+Grandes números o números con un componente fraccional.
+![ScreenShot](https://raw.github.com/BitzerAr/Acecom/master/fotos/float.png)
+```c++
+float fvalor;
+double dValor;
+long double dValur2;
+```
+### NaN e Inf
+ La primera es Inf , que representa el infinito.
+ 
+ La segunda NaN , que significa “no es un número”
+ 
+ ## Boolean
+ Variables booleanas son variables que pueden tener sólo dos valores posibles: true (1), y falso (0).
+```c++
+bool b=true;
+bool c;
+c = false
+```
+## Char
+char es un número entero (y por lo tanto sigue todas las reglas normales enteros), a pesar de eso se suelen trabajar con caracteres de una manera diferente que los números enteros normales.
+```c++
+char ch1 = 97;
+char ch2 = 'a';
+```
+## Constantes
+variables con valores que no se pueden cambiar.
+### const
+Constante debe ser una constante de tiempo de ejecución:
+```c++
+const double gravedad = 9.8 ;
+```
+### constexpr
+Constante debe ser una constante de tiempo de compilación:
+```c++
+constexpr double gravedad = 9.8 ;
+```
+### Las constantes simbólicas
+```c++
+#define MAX_STUDENTS_PER_CLASS 30
+```
