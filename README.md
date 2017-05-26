@@ -1,10 +1,12 @@
 # Curso Acecom C++ Orientado a Objetos
 # Objetivo del Curso 
 
-Tengan los conceptos claros acerca del paradigma de programacion orientada a objetos
-
+Tengan los conceptos claros acerca del paradigma de programacion orientada a objetos y todos los conceptos de c++.
 # Metas 
-Todos tengan la base para p
+Aprender entre todos para tener una proyeccion distinta.
+
+Trabajar en equipo y compartir ideas entre nosotros.
+
 
 ## A darle con todo al curso
 
@@ -65,3 +67,9 @@ int main()
     return 0;
 }
 ```
+## Definición de variable, inicialización y asignación
+ las variables son nombres para un trozo de memoria que se puede utilizar para almacenar información, se utiliza un tipo de datos para decirnos cómo interpretar los contenidos de la memoria de una manera significativa. 
+### tipos de datos fundamentales
+
+
+
