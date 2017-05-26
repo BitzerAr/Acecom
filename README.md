@@ -2,7 +2,7 @@
 # Objetivo del Curso 
 
 Tengan los conceptos claros acerca del paradigma de programacion orientada a objetos
-============
+
 # Metas 
 Todos tengan la base para p
 
