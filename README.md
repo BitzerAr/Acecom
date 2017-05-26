@@ -1,5 +1,6 @@
 # Curso Acecom C++ Orientado a Objetos
 # Objetivo del Curso 
+
 Tengan los conceptos claros acerca del paradigma de programacion orientada a objetos
 ============
 # Metas 
@@ -9,6 +10,7 @@ Todos tengan la base para p
 
 Un programa de computadora es una secuencia de instrucciones que le indican a la computadora qué hacer.
 Una declaración en C++ es la unidad más pequeña del lenguaje es análogo a una frase en el lenguaje humano. Escribimos frases con el fin de transmitir una idea.
+Todas las variables en un programa deben ser declaradas antes de ser utilizados
 # Pregunta 1 a la 11
 ```c++
 int x;
