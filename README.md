@@ -71,7 +71,5 @@ int main()
  las variables son nombres para un trozo de memoria que se puede utilizar para almacenar información, se utiliza un tipo de datos para decirnos cómo interpretar los contenidos de la memoria de una manera significativa. 
 ### tipos de datos fundamentales
 
-![ScreenShot](https://raw.github.com/BitzerAr/AcecomC-/blob/master/tipo.png)
-(https://raw.github.com/kivy/kivy-designer/master/kivy_designer.png)
-https://github.com/kivy/kivy-designer/blob/master/kivy_designer.png
+![ScreenShot](https://raw.github.com/BitzerAr/Acecom/master/tipo.png)
 
