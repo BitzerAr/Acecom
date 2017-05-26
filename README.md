@@ -101,4 +101,4 @@ El tamaño de un determinado tipo de datos depende del compilador y / o de la ar
 ### Sizeof
 El operador sizeof es un operador unitario que tiene o bien un tipo o una variable, y devuelve su tamaño en bytes.
 ## Enteros
-![ScreenShot](https://raw.github.com/BitzerAr/Acecom/master/enteros.png)
+![ScreenShot](https://raw.github.com/BitzerAr/Acecom/master/fotos/entero.png)
