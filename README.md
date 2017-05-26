@@ -18,126 +18,50 @@ Una biblioteca es una colección de código precompilado (por ejemplo, funciones
 
 Biblioteca estándar de C ++ es la biblioteca iostream, que contiene la funcionalidad para escribir en la pantalla y conseguir la entrada de un usuario de la consola.
 
-# Clasico hola mundo
+### Clasico hola mundo
+std::cout utilizar para texto de salida de la consola con el operador de salida (<<)
+```c++
+#include <iostream>  //Directivas del preprocesador
+ 
+int main()
+{
+   std::cout << "Hello world!";  //<< operador de salida 
+   return 0;    // instrucción de retorno 
+}
+
+```
+NOTA: El return 0,es un valor que se le da al sistema operativo, llamado un código de estado , y le dice al sistema operativo (y cualquier otro programa que llame a este) si el programa se ha ejecutado correctamente o no. Un valor de retorno 0 significa exito.
+
+
+El operador de salida (<<) se puede utilizar varias veces
 ```c++
 #include <iostream>
  
 int main()
 {
-   std::cout << "Hello world!";
-   return 0;
-}
-
-```
-Al poner extends AppCompatActivity nos solicita importar la siguiente libreria 
-
-**import android.support.v7.app.AppCompatActivity;**
-```java
-package com.example.bitzer.primeraaplicacion;
-
-import android.support.v7.app.AppCompatActivity;
-
-/**
- * Created by bitzer on 02/04/17.
- */
-
-public class SegundaActividad extends AppCompatActivity {
+    int x = 4;
+    std::cout << "x is equal to: " << x;
+    return 0;
 }
 ```
-Al igual que el caso anterior al implementar el metodo onCreate nos solicita importar la libreria 
-***import android.os.Bundle;***
-```java
-package com.example.bitzer.primeraaplicacion;
-
-import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-
-/**
- * Created by bitzer on 02/04/17.
- */
-
-public class SegundaActividad extends AppCompatActivity {
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-    }
+std :: endl uso del salto de linea
+```c++
+#include <iostream>
+int main(){
+    std::cout << "hola" <<std::endl<<mundo;
+    return 0;
 }
 ```
-Cambiamos el nombre de la interfaz gráfica llamandola 
-***activity_segunda_actividad***
-```java
-package com.example.bitzer.primeraaplicacion;
-
-import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-
-/**
- * Created by bitzer on 02/04/17.
- */
-
-public class SegundaActividad extends AppCompatActivity {
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_segunda_actividad);
-    }
+ std :: cin lee la entrada del usuario en la consola utilizando el operador de entrada ( >>)
+```c++
+#include <iostream>
+ 
+int main()
+{
+    std::cout << "Ingrese numero : "; 
+    int x; 
+    std::cin >> x; 
+    std::cout << "Valor ingresado " << x << std::endl;
+    return 0;
 }
-```
-Lo anterior genera un error por lo que no existe dicha interfaz, por lo que creamos nuestra nueva interfaz
-***activity_segunda_actividad.xml***
-```xml
-<?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.example.bitzer.primeraaplicacion.SegundaActividad">
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/app_nombre"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-</android.support.constraint.ConstraintLayout>
-```
-Para esto creamos nuestra nueva variable y asignarle un valor en ***strings.xml***
-```xml
-<resources>
-    <string name="app_name">PrimeraAplicacion</string>
-    <string name="app_nombre">SegundaActividad</string>
- </resources>
- ```
- Creada nuestra Segunda Activida debemos indicarlo en el ***AndroidManifest.xml***
-```xml
-<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.bitzer.primeraaplicacion">
-
-    <application
-             ----------
-            >
-        -------------
-        -------------
-        <!--Añadimos lo siguiente -->
-        <activity
-            android:name=".SegundaActividad"
-            android:label="@string/seg_actividad" >
-        </activity>
-    </application>
-
-</manifest>
-```
-Creamos otro string en ***strings.xml***
-```xml
-<resources>
-    <string name="app_name">PrimeraAplicacion</string>
-    <string name="app_nombre">SegundaActividad</string>
-    <string name="seg_actividad">Mi Segunda Actividad</string>
-</resources>
 ```
