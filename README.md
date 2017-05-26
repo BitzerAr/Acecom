@@ -71,7 +71,7 @@ int main()
  las variables son nombres para un trozo de memoria que se puede utilizar para almacenar información, se utiliza un tipo de datos para decirnos cómo interpretar los contenidos de la memoria de una manera significativa. 
 ### tipos de datos fundamentales
 
-![ScreenShot](https://raw.github.com/BitzerAr/Acecom/master/tipo.png)
+![ScreenShot](https://raw.github.com/BitzerAr/Acecom/master/fotos/tipo.png)
 
 ### La definición de una variable
 ```c++
