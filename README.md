@@ -189,4 +189,128 @@ x = (condición)? some_value: some_other_value;
 ```c++
 valor = (x > y) ? x : y;
 ```
+## Operadores Relacionales 
+```c++
+#include <cmath> // for fabs()
+bool isAlmostEqual(double a, double b, double epsilon)
+{
+    return fabs(a - b) <= epsilon;
+}
+```
+## Operadores lógicos
+AND, OR y NOT
+### Ley de Morgan
+!(x && y)es equivalente !x || !y
 
+## Static
+```c++
+#include <iostream>
+ 
+void incrementAndPrint()
+{
+    int value = 1; 
+    ++value;
+    std::cout << value << std::endl;
+} // value is destroyed here
+ 
+int main()
+{
+    incrementAndPrint();
+    incrementAndPrint();
+    incrementAndPrint();
+}
+```
+```c++
+#include <iostream>
+ 
+void incrementAndPrint()
+{
+    static int s_value = 1; // static duration via static keyword.  This line is only executed once.
+    ++s_value;
+    std::cout << s_value << std::endl;
+} // s_value is not destroyed here, but becomes inaccessible
+ 
+int main()
+{
+    incrementAndPrint();
+    incrementAndPrint();
+    incrementAndPrint();
+}
+```
+
+## Namespace 
+```c++
+namespace Foo
+{
+    int operacion(int x, int y)
+    {
+        return x + y;
+    }
+}
+```
+```c++
+namespace Goo
+{
+    int operacion(int x, int y)
+    {
+        return x - y;
+    }
+}
+```
+a cual de los dos llama?
+```c++
+int main()
+{
+    std::cout << operacion(4, 3); 
+    return 0;
+}
+```
+Corrección
+```c++
+int main(void)
+{
+    std::cout << Foo::operacion(4, 3);
+    return 0;
+}
+```
+## Using
+using std::cout ->  le dice al compilador que vamos a utilizar el “cout” objeto desde el espacio de nombres std
+```c++
+#include <iostream>
+ 
+int main()
+{
+   using std::cout; 
+   cout << "Hello world!"; 
+   return 0;
+}
+```
+using namespace std; -> le dice al compilador que queremos utilizar todo en el espacio de nombres std.
+```c++
+#include <iostream>
+ 
+int cout() // declares our own "cout" function
+{
+    return 5;
+}
+ 
+int main()
+{
+    using namespace std; // makes std::cout accessible as "cout"
+    cout << "Hello, world!"; // uh oh!  Which cout do we want here?  The one in the std namespace or the one we defined above?
+ 
+    return 0;
+}
+```
+## Enumeraciones 
+Un tipo enumerado (también llamado una enumeración ) es un tipo de datos en el que cada valor posible se define como una constante simbólica (llamado un empadronador ).
+
+## IF 
+if (expression)
+    statement
+or
+
+if (expression)
+    statement
+else
+    statement2
