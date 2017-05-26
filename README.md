@@ -9,13 +9,25 @@ Todos tengan la base para p
 ## A darle con todo al curso
 
 Un programa de computadora es una secuencia de instrucciones que le indican a la computadora qué hacer.
+
 Una declaración en C++ es la unidad más pequeña del lenguaje es análogo a una frase en el lenguaje humano. Escribimos frases con el fin de transmitir una idea.
-Todas las variables en un programa deben ser declaradas antes de ser utilizados
-# Pregunta 1 a la 11
+
+Todas las variables en un programa deben ser declaradas antes de ser utilizados.
+
+Una biblioteca es una colección de código precompilado (por ejemplo, funciones) que ha sido “empaquetados” para su reutilización en muchos programas diferentes. 
+
+Biblioteca estándar de C ++ es la biblioteca iostream, que contiene la funcionalidad para escribir en la pantalla y conseguir la entrada de un usuario de la consola.
+
+# Clasico hola mundo
 ```c++
-int x;
-x = 5;
-std::cout << x;
+#include <iostream>
+ 
+int main()
+{
+   std::cout << "Hello world!";
+   return 0;
+}
+
 ```
 Al poner extends AppCompatActivity nos solicita importar la siguiente libreria 
 
