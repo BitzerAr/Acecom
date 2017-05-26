@@ -73,3 +73,32 @@ int main()
 
 ![ScreenShot](https://raw.github.com/BitzerAr/Acecom/master/tipo.png)
 
+### La definición de una variable
+```c++
+bool bValue;
+char chValue;
+int nValue;
+float fValue;
+double dValue;
+```
+### Inicializacion de una variable
+Cuando se define una variable, se puede dar inmediatamente esa variable un valor.
+```c++
+int valor = 5;
+```
+### Asignacion de variable
+uando se da una variable un valor después de que se ha definido.
+```c++
+int valor;
+valor = 5;
+```
+## Tamaño de variables y el operador sizeof
+La cantidad de memoria que utiliza una variable se basa en su tipo de datos.
+
+Una variable con n bits puede contener 2^n valores posibles.
+
+El tamaño de un determinado tipo de datos depende del compilador y / o de la arquitectura de la computadora
+### Sizeof
+El operador sizeof es un operador unitario que tiene o bien un tipo o una variable, y devuelve su tamaño en bytes.
+## Enteros
+![ScreenShot](https://raw.github.com/BitzerAr/Acecom/master/enteros.png)
