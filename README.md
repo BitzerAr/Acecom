@@ -70,6 +70,6 @@ int main()
 ## Definición de variable, inicialización y asignación
  las variables son nombres para un trozo de memoria que se puede utilizar para almacenar información, se utiliza un tipo de datos para decirnos cómo interpretar los contenidos de la memoria de una manera significativa. 
 ### tipos de datos fundamentales
-
+![ScreenShot](https://raw.github.com/BitzerAr/AcecomC-/blob/master/tipo.png)
 
 
