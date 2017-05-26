@@ -102,6 +102,7 @@ El tamaño de un determinado tipo de datos depende del compilador y / o de la ar
 El operador sizeof es un operador unitario que tiene o bien un tipo o una variable, y devuelve su tamaño en bytes.
 ## Enteros
 ![ScreenShot](https://raw.github.com/BitzerAr/Acecom/master/fotos/entero.png)
+
 El rango de una variable de número entero se determina por dos factores: su tamaño (en bits), y su signo 
 Definicion
 ```c++
@@ -115,8 +116,10 @@ long long int lli;
 long long ll; 
 ```
 ## Float 
-Grandes números o números con un componente fraccional.
 ![ScreenShot](https://raw.github.com/BitzerAr/Acecom/master/fotos/float.png)
+
+Grandes números o números con un componente fraccional.
+
 ```c++
 float fvalor;
 double dValor;
@@ -156,3 +159,34 @@ constexpr double gravedad = 9.8 ;
 ```c++
 #define MAX_STUDENTS_PER_CLASS 30
 ```
+## Operadores Aritmeticos
+![ScreenShot](https://raw.github.com/BitzerAr/Acecom/master/fotos/operadores.png)
+
+## operadores de asignación aritméticas
+![ScreenShot](https://raw.github.com/BitzerAr/Acecom/master/fotos/asignacion.png)
+
+## Operadores de incremento
+
+```c++
+int x = 5;
+int y = x++; 
+```
+En primer lugar, el compilador hace una copia temporal de X que comienza con el mismo valor que x (5).
+
+Entonces se incrementa el x original a partir de 5 a 6.
+
+A continuación, el compilador evalúa la copia temporal, que evalúa a 5, y asigna ese valor a y.
+```c++
+int x = 5, y = 5;
+cout << x << " " << y << endl;
+cout << ++x << " " << --y << endl; // prefix
+cout << x << " " << y << endl;
+cout << x++ << " " << y-- << endl; // postfix
+cout << x << " " << y << endl
+```
+## Operador condicional
+x = (condición)? some_value: some_other_value;
+```c++
+valor = (x > y) ? x : y;
+```
+
