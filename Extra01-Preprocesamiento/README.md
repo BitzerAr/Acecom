@@ -95,7 +95,7 @@ int main(){
 }
 ```
 ```
-output~: Valor de ab: 30
+output~: Valor de my_var: 30
 ```
 
 #### 4. **Next line macro(\\)**
@@ -162,8 +162,8 @@ METHOD(CLASS)
 #include <iostream>
 #define METHOD(x) x##_COMMAND,
 enum Parameters {
-		#include "example.h"
-		COMMAND_TOTAL
+	#include "example.h"
+	COMMAND_TOTAL
 };
 
 using namespace std;
