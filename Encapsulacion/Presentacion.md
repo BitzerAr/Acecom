@@ -1,2 +1,2 @@
 ## Por que trabajar con objetos?
-¯\_(ツ)_/¯
+¯\\_(ツ)_/¯
