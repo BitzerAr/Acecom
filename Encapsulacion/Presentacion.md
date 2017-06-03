@@ -1,4 +1,3 @@
-* 
 Programación Orientada a Objetos
 --------------------------------
 ## Que son los Objetos?
