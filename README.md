@@ -3,7 +3,7 @@ Curso Programacion en c++ Orientado a Objetos brindado por el grupo ACECOM de la
 
 ## Contenido disponible
 ### Clase1
-* [Introducción](https://github.com/BitzerAr/Acecom/tree/master/Tema01-Introducci%C3%B3n)
+* [Tema01 - Introducción](https://github.com/BitzerAr/Acecom/tree/master/Tema01-Introducci%C3%B3n)
 ### Clase2
 * [Extra 01 - Preprocesamiento](https://github.com/BitzerAr/Acecom/tree/master/Extra01-Preprocesamiento)
 * [Tema02 - Encapsulacion : Clases, constructores y destructores](https://github.com/BitzerAr/Acecom/tree/master/Tema02-Encapsulaci%C3%B3n)
