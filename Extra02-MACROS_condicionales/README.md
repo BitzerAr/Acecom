@@ -2,7 +2,7 @@
 Herramienta de código ejecutable en el entorno de precompilamiento con estructura condicional sobre los macros definidos
 
 # Tipos
-## 1. Condicional de definición
+### 1. Condicional de definición
 Bloque condicional de código que depende de el estado de definición de algún MACRO
 ### Ejemplo:
 ``` cpp
@@ -27,7 +27,7 @@ int main(){
 output~: 123
 ```
 
-## 2. Condicional complementario de definición
+### 2. Condicional complementario de definición
 Similar al bloque anterior, solo que en este caso se revisa si la no existe la definición del MACRO en cuestión.
 ```cpp
 #include <iostream>
