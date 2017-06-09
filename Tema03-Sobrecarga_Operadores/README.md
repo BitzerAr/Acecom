@@ -119,5 +119,6 @@ bool operator> (const Librros &l1, const Libros &l2){
 bool operator>= (const Libros &l1, const Cents &l2){
     return c1.m_cantidad >= c2.m_cantidad;
 }
-      ```
+```
+
 * [Ejemplo 05](https://github.com/BitzerAr/Acecom/blob/master/Tema03-Sobrecarga_Operadores/Ejemplos/ejemplo5.cpp)
