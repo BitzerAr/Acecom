@@ -1,4 +1,4 @@
-obrecarga de Operadores
+#Sobrecarga de Operadores
 
 En C ++, los operadores están implementados como funciones.
 Aplicando la sobrecarga de funciones en la funcion de un operador, usted podra definir sus propias versiones de los operadores que trabajen con diferentes datos que los habiltuales.
@@ -42,6 +42,7 @@ Cadena operator+(const Cadena &cadena1, const Cadena &cadena2){
 	return Cadena(cadena1.m_cadena + cadena2.m_cadena;
 }
 ```
+* [Ejemplo 01](https://github.com/BitzerAr/Acecom/blob/master/Tema03-Sobrecarga_Operadores/Ejemplos/ejemplo1.cpp)
 # Operadores Sobrecarga utilizando funciones normales
  ```c++
  class Cadena{
@@ -59,6 +60,8 @@ Cadena operator+(const Cadena &cadena1, const Cadena &cadena2){
 	return Cadena(cadena1.getCadena() + cadena2.getCadena();
 }
  ```
+ * [Ejemplo 01-1](https://github.com/BitzerAr/Acecom/blob/master/Tema03-Sobrecarga_Operadores/Ejemplos/ejemplo1-1.cpp)
+ * [Ejemplo 02](https://github.com/BitzerAr/Acecom/blob/master/Tema03-Sobrecarga_Operadores/Ejemplos/ejemplo2.cpp)
 # La sobrecarga de operadores <<
 Sobrecarga de operadores << es similar a la sobrecarga del operador + (ambos son operadores binarios), excepto que los tipos de parámetros son diferentes.
 En la expresion cout << miembro, el operando de la izquierda es el objeto std::cout y el de la derecha el objeto que nosotros definimos.
@@ -82,6 +85,7 @@ ostream& operator<< (ostream &out, const Point &point){
     return out;
 }
   ```
+  * [Ejemplo 03](https://github.com/BitzerAr/Acecom/blob/master/Tema03-Sobrecarga_Operadores/Ejemplos/ejemplo3.cpp)
 # Sobrecarga operado >> 
 Se realiza de forma analoga al operador de salida, con la diferencia de que "std :: cin es un objeto de tipo std :: istream"
   ```c++
@@ -106,6 +110,7 @@ bool Point::operator! () const
     return (m_x == 0.0 && m_y == 0.0 && m_z == 0.0);
 }
    ```
+    * [Ejemplo 04](https://github.com/BitzerAr/Acecom/blob/master/Tema03-Sobrecarga_Operadores/Ejemplos/ejemplo4.cpp)
 # Sobrecarga de los operadores de comparación
    ```c++
 bool operator> (const Librros &l1, const Libros &l2){
@@ -115,4 +120,4 @@ bool operator>= (const Libros &l1, const Cents &l2){
     return c1.m_cantidad >= c2.m_cantidad;
 }
       ```
-
+* [Ejemplo 05](https://github.com/BitzerAr/Acecom/blob/master/Tema03-Sobrecarga_Operadores/Ejemplos/ejemplo5.cpp)
