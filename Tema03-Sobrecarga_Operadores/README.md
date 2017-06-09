@@ -1,5 +1,5 @@
-#Sobrecarga de Operadores
-
+# Sobrecarga de Operadores
+-------------------------------
 En C ++, los operadores están implementados como funciones.
 Aplicando la sobrecarga de funciones en la funcion de un operador, usted podra definir sus propias versiones de los operadores que trabajen con diferentes datos que los habiltuales.
 Esto realiza constantemente:
