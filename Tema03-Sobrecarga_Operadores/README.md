@@ -110,7 +110,7 @@ bool Point::operator! () const
     return (m_x == 0.0 && m_y == 0.0 && m_z == 0.0);
 }
    ```
-    * [Ejemplo 04](https://github.com/BitzerAr/Acecom/blob/master/Tema03-Sobrecarga_Operadores/Ejemplos/ejemplo4.cpp)
+* [Ejemplo 04](https://github.com/BitzerAr/Acecom/blob/master/Tema03-Sobrecarga_Operadores/Ejemplos/ejemplo4.cpp)
 # Sobrecarga de los operadores de comparación
    ```c++
 bool operator> (const Librros &l1, const Libros &l2){
