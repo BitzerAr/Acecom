@@ -10,3 +10,4 @@ Curso Programacion en c++ Orientado a Objetos brindado por el grupo ACECOM de la
 ### Clase3
 * [Extra 02 - MACROS condicionales](https://github.com/BitzerAr/Acecom/tree/master/Extra02-MACROS_condicionales)
 * [Extra 03 - Clases reusables](https://github.com/BitzerAr/Acecom/tree/master/Extra03-Clases_reusables)
+* [Tema 03 - Sobrecarga de Operadores](https://github.com/BitzerAr/Acecom/tree/master/Tema03-Sobrecarga_Operadores)
